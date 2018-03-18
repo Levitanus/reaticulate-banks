@@ -1,0 +1,215 @@
+
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Woodwinds" n="Core"
+Bank 14 1 USER OT/BBW/Core
+
+//! c=legato i=legato g=1 o=cc@1:84,1
+1 ART1 Legato
+//! c=short i=spiccato g=1 o=cc@2:84,1
+2 ART2 Staccatiss
+//! c=short i=staccato g=1 o=cc@3:84,1
+3 ART3 Staccato
+//! c=short i=marcato-quarter g=1 o=cc@4:84,1
+4 ART4 Marc Sh
+//! c=short i=marcato-half g=1 o=cc@5:84,1
+5 ART5 Marc Lng
+//! c=short-dark i=multitongued g=1 o=cc@6:84,1
+6 ART6 Doubles
+//! c=short-dark i=multitongued g=1 o=cc@7:84,1
+7 ART7 Tripples
+//! c=textured i=trill g=1 o=cc@8:84,1
+8 ART8 Trills L
+//! c=textured i=trill g=1 o=cc@9:84,1
+9 ART9 Trills S
+//! c=textured i=trill g=1 o=cc@10:84,1
+10 ART10 Trills Sfz
+//! c=legato i=legato-runs g=1 o=cc@11:84,1
+11 ART11 Pl Runs
+//! c=short-light i=tremolo-measured g=1 o=cc@12:84,1
+12 ART12 Rep 16th
+//! c=short-light i=tremolo-measured g=1 o=cc@13:84,1
+13 ART13 Rep 3ts
+
+//! g="Orchestra tools/Berlin Woodwinds" n="Picc SFX"
+Bank 14 2 USER OT/BBW/Picc SFX
+//! c=legato i=legato-tremolo g=1 o=cc@1:84,2
+14 ART14 Fltr Leg
+//! c=short i=tremolo-measured g=1 o=cc@2:84,2
+15 ART15 Fltr Port
+//! c=fx i=alt-wave g=1 o=cc@3:84,2
+16 ART16 Bend Sus
+//! c=fx i=phrase g=1 o=cc@4:84,2
+17 ART17 Wirl Sus
+//! c=fx i=riccochet g=1 o=cc@5:84,2
+18 ART18 Wirl Stacc
+//! c=short i=staccato-overblown g=1 o=cc@6:84,2
+19 ART19 Owbln
+//! c=long i=run-minor g=1 o=cc@7:84,2
+21 ART21 Sh Up
+//! c=long-dark i=run-minor g=1 o=cc@8:84,2
+22 ART22 Sh Dwn
+//! c=long i=run-minor g=1 o=cc@9:84,2
+23 ART23 Sh UpDwn
+//! c=long i=run-minor g=1 o=cc@10:84,2
+24 ART24 Acc Up
+//! c=long-dark i=run-minor g=1 o=cc@11:84,2
+25 ART25 Acc Dwn
+//! c=long-light i=run-minor g=1 o=cc@14:84,2
+26 ART26 Lng UpDwn
+//! c=long i=run-minor g=1 o=cc@12:84,2
+27 ART27 Lng Up
+//! c=long-dark i=run-minor g=1 o=cc@13:84,2
+28 ART28 Lng Dwn
+//! c=long i=rip g=1 o=cc@15:84,2
+29 ART29 Rip
+//! c=long-dark i=rip-downward g=1 o=cc@16:84,2
+30 ART30 Fall
+
+//! g="Orchestra tools/Berlin Woodwinds" n="Fl SFX"
+Bank 14 3 USER OT/BBW/Fl SFX
+//! c=legato i=legato-tremolo g=1 o=cc@1:84,2
+14 ART14 Fltr Leg
+//! c=short i=tremolo-measured g=1 o=cc@2:84,2
+15 ART15 Fltr Port
+//! c=fx i=alt-wave g=1 o=cc@3:84,2
+16 ART16 Bend Sus
+//! c=fx i=phrase g=1 o=cc@4:84,2
+17 ART17 Wirl Sus
+//! c=fx i=riccochet g=1 o=cc@5:84,2
+18 ART18 Wirl Stacc
+//! c=short i=staccato-overblown g=1 o=cc@6:84,2
+19 ART19 Owbln
+//! c=long i=run-minor g=1 o=cc@7:84,2
+21 ART21 Sh Up
+//! c=long-dark i=run-minor g=1 o=cc@8:84,2
+22 ART22 Sh Dwn
+//! c=long i=run-minor g=1 o=cc@9:84,2
+23 ART23 Acc UpDwn
+//! c=long i=run-minor g=1 o=cc@10:84,2
+24 ART24 Acc Up
+//! c=fx i=fx g=1 o=cc@11:84,2
+25 ART25 FX
+//! c=short-dark i=staccato-overblown g=1 o=cc@12:84,2
+27 ART27 Wind
+//! c=short-dark i=staccato-dig g=1 o=cc@13:84,2
+28 ART28 Wind FFF
+//! c=long i=rip g=1 o=cc@15:84,2
+29 ART29 Rip
+//! c=long-dark i=rip-downward g=1 o=cc@16:84,2
+30 ART30 Fall
+
+//! g="Orchestra tools/Berlin Woodwinds" n="Core2"
+Bank 14 4 USER OT/BBW/Core2
+
+//! c=legato i=legato g=1 o=cc@1:84,1
+1 ART1 Legato
+//! c=short i=spiccato g=1 o=cc@2:84,1
+2 ART2 Staccatiss
+//! c=short i=staccato g=1 o=cc@3:84,1
+3 ART3 Staccato
+//! c=short i=marcato-quarter g=1 o=cc@4:84,1
+4 ART4 Marc Sh
+//! c=short i=marcato-half g=1 o=cc@5:84,1
+5 ART5 Marc Lng
+//! c=short-dark i=tenuto-quarter g=1 o=cc@6:84,1
+6 ART6 Portato Sh
+//! c=short-dark i=tenuto-half g=1 o=cc@7:84,1
+7 ART7 Portato Lng
+//! c=textured i=trill g=1 o=cc@8:84,1
+8 ART8 Trills L
+//! c=textured i=trill g=1 o=cc@9:84,1
+9 ART9 Trills S
+//! c=textured i=trill g=1 o=cc@10:84,1
+10 ART10 Trills Sfz
+//! c=legato i=legato-runs g=1 o=cc@11:84,1
+11 ART11 Pl Runs
+//! c=short-light i=tremolo-measured g=1 o=cc@12:84,1
+12 ART12 Rep 16th
+//! c=short-light i=tremolo-measured g=1 o=cc@13:84,1
+13 ART13 Rep 3ts
+
+//! g="Orchestra tools/Berlin Woodwinds" n="Cl SFX"
+Bank 14 5 USER OT/BBW/Cl SFX
+//! c=legato i=legato-tremolo g=1 o=cc@1:84,2
+14 ART14 Fltr Leg
+//! c=legato i=legato-gliss g=1 o=cc@2:84,2
+15 ART15 Leg Gliss
+//! c=fx i=alt-wave g=1 o=cc@3:84,2
+16 ART16 Bend Sus
+//! c=fx i=phrase g=1 o=cc@4:84,2
+17 ART17 Wirl Sus
+//! c=fx i=riccochet g=1 o=cc@5:84,2
+18 ART18 Wirl Stacc
+//! c=fx i=fx g=1 o=cc@11:84,2
+25 ART25 Multifonics
+//! c=long-dark i=rip g=1 o=cc@15:84,2
+29 ART30 Rip
+//! c=long-dark i=rip-downward g=1 o=cc@16:84,2
+30 ART30 Fall
+
+//! g="Orchestra tools/Berlin Woodwinds" n="Bassoon"
+Bank 14 6 USER OT/BBW/Bassoon
+
+//! c=legato i=legato g=1 o=cc@1:84,1
+1 ART1 Legato
+//! c=short i=spiccato g=1 o=cc@2:84,1
+2 ART2 Staccatiss
+//! c=short i=staccato g=1 o=cc@3:84,1
+3 ART3 Staccato
+//! c=short i=marcato-quarter g=1 o=cc@4:84,1
+4 ART4 Marc Sh
+//! c=short i=marcato-half g=1 o=cc@5:84,1
+5 ART5 Marc Lng
+//! c=short-dark i=multitongued g=1 o=cc@6:84,1
+6 ART6 Doubles
+//! c=short-dark i=multitongued g=1 o=cc@7:84,1
+7 ART7 Tripples
+//! c=textured i=trill g=1 o=cc@8:84,1
+8 ART8 Trills L
+//! c=short-light i=staccato-sfz g=1 o=cc@9:84,1
+9 ART9 Sfz
+//! c=short-light i=staccato-dig g=1 o=cc@10:84,1
+10 ART10 Fp
+
+//! g="Orchestra tools/Berlin Woodwinds" n="Bsn SFX"
+Bank 14 7 USER OT/BBW/Bsn SFX
+//! c=legato i=tremolo g=1 o=cc@1:84,2
+14 ART14 Fltr
+//! c=legato i=tremolo-measured g=1 o=cc@2:84,2
+15 ART15 Fltr Port
+//! c=fx i=phrase g=1 o=cc@4:84,2
+17 ART17 Wirl Sus
+//! c=fx i=riccochet g=1 o=cc@5:84,2
+18 ART18 Wirl Stacc
+//! c=fx i=phrase-tremolo g=1 o=cc@6:84,2
+19 ART19 Wirl Trem
+//! c=fx i=fx g=1 o=cc@11:84,2
+25 ART25 Multifonics
+//! c=long-dark i=rip g=1 o=cc@15:84,2
+29 ART30 Rip
+//! c=long-dark i=rip-downward g=1 o=cc@16:84,2
+30 ART30 Fall
+
+//! g="Orchestra tools/Berlin Woodwinds" n="Bsn ens SFX"
+Bank 14 8 USER OT/BBW/Bsn ens SFX
+//! c=legato i=tremolo g=1 o=@1
+1 ART1 Leg
+//! c=short i=staccato g=1 o=@2
+2 ART2 Stacc
+//! c=textured i=alt-wave g=1 o=@3
+3 ART3 Cluster
+//! c=textured i=alt-wave-double g=1 o=@4
+4 ART4 Cluster W
+//! c=textured i=alt-gypsy g=1 o=@5
+5 ART5 Cluster St
+//! c=textured i=alt-gypsy-harmonics g=1 o=@6
+6 ART6 Cluster St W
+//! c=fx i=phrase g=1 o=@7
+7 ART7 Wirl Sus
+//! c=fx i=riccochet g=1 o=@8
+8 ART8 Wirl Stacc
+//! c=long-dark i=rip g=1 o=@9
+9 ART9 Rip
+//! c=long-dark i=rip-downward g=1 o=@10
+10 ART10 Fall
+
