@@ -1,0 +1,70 @@
+//----------------------------------------------------------------------------
+//! g="Spitfire/Symph Strings" n="Violins I" clone="Spitfire/Symph Strings/Core"
+Bank 11 1 USER SSS - ViolinsI
+//! c=textured i=trill-min3 g=1 o=cc@4:84,2
+31 OPT 1 Trill m3
+//! c=textured i=trill-maj3 g=1 o=cc@5:84,2
+32 OPT 2 Trill B3
+//! c=textured i=spiccato-brushed-con-sord g=1 o=cc@6:84,2
+33 OPT 3 Brushed CS
+
+
+//----------------------------------------------------------------------------
+//! g="Spitfire/Symph Strings" n="Basses" clone="Spitfire/Symph Strings/Core"
+Bank 11 3 USER SSS - Basses
+//! c=textured i=sul-pont g=1 o=cc@4:84,2
+31 OPT 1 Sul Pont distored
+
+
+//! g="Spitfire/Symph Strings" n="Core"
+Bank 11 2 USER SSS - Core
+//! c=legato i=legato g=1 o=cc@1:84,1
+1 ART1  legato
+//! c=legato i=legato-sul-g g=1 o=cc@3:84,1
+2 ART2  legato SulG
+//! c=legato i=con-sord g=1 o=cc@4:84,1
+3 ART3  Long CS
+//! c=legato i=harmonics g=1 o=cc@5:84,1
+4 ART4  Long Flag
+//! c=legato i=marcato-half g=1 o=cc@6:84,1
+5 ART5  Marc Attack
+
+//! c=short i=tenuto-half g=1 o=cc@7:84,1
+6 ART6  Tenuto
+//! c=short i=tenuto-quarter g=1 o=cc@8:84,1
+7 ART7  Marcato
+//! c=short i=spiccato g=1 o=cc@9:84,1
+8 ART8  Spiccato
+//! c=short i=spiccato-brushed g=1 o=cc@10:84,1
+9 ART9 Brushed
+//! c=short i=staccato-con-sord g=1 o=cc@11:84,1
+10 ART10 Short CS
+//! c=short i=pizz g=1 o=cc@12:84,1
+11 ART11 Pizz
+//! c=short i=col-legno g=1 o=cc@13:84,1
+12 ART12 Col Legno
+
+//! c=textured i=tremolo-150 g=1 o=cc@14:84,1
+13 ART13 Trem Measured
+//! c=textured i=tremolo g=1 o=cc@15:84,1
+14 ART14 Trem
+//! c=textured i=tremolo-sul-pont g=1 o=cc@16:84,1
+15 ART15 Trem Sul Pont
+
+//! c=textured i=trill-min2 g=1 o=cc@1:84,2
+16 ART16 Trill m2
+//! c=textured i=trill-maj2 g=1 o=cc@2:84,2
+17 ART17 Trill B2
+//! c=textured i=fx g=1 o=cc@3:84,2
+18 ART18 FX
+
+//! c=short-dark i=spiccato g=1 o=cc@2:84,1/note@2:2,42 f=!chase
+21 ART21 TM spicc
+//! c=short-dark i=tenuto-quarter g=1 o=cc@2:84,1/note@2:2,50 f=!chase
+22 ART22 TM Marc
+//! c=short-dark i=tenuto-half g=1 o=cc@2:84,1/note@2:2,52 f=!chase
+23 ART23 TM Temuto
+//! c=short-dark i=spiccato-brushed g=1 o=cc@2:84,1/note@2:2,48 f=!chase
+24 ART24 TM Brushed
+//! c=short-dark i=staccato-harmonics g=1 o=cc@2:84,1/note@2:2,61 f=!chase
+25 ART25 TM Flag

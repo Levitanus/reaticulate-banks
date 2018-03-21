@@ -1,0 +1,30 @@
+desc:OT micpos Manager (Levitanus)
+
+slider1:0<0,6,{close1,close2,ortf,ab,tree,srnd}>micpos on
+
+@slider
+slider_val != slider1?(
+  send = 1;
+  slider_val = slider1;
+);
+
+@sample
+send == 1?(
+  i2 = 0;
+  while (i2 < 10)(
+    midi_bus = i2;
+    i = 0;
+    while (i < 15)(
+      midisend(i2,0xb0+i,87,1);
+      midisend(i2,0xb0+i,88,1);
+      midisend(i2,0xb0+i,89,1);
+      midisend(i2,0xb0+i,90,1);
+      midisend(i2,0xb0+i,91,1);
+      midisend(i2,0xb0+i,92,1);
+      midisend(i2,0xb0+i,87+slider1,127);
+      i += 1;
+    );
+    i2 += 1;
+  );
+  send = 0;
+);

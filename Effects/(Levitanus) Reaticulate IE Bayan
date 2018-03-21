@@ -1,0 +1,85 @@
+desc:IE Bayan hack for Reaticulate
+
+slider1:1<1,16,1>LH channel
+slider2:2<1,16,1>RH channel
+
+@init
+ext_noinit = 1.0;
+
+//arts
+opt_ks[0] = 29;
+opt_ks[1] = 31;
+opt_ks[2] = 32;
+opt_ks[3] = 30;
+//l registers
+opt_ks[4] = 36;
+opt_ks[5] = 37;
+opt_ks[6] = 38;
+opt_ks[7] = 39;
+//r registers
+opt_ks[8] = 28;
+opt_ks[9] = 27;
+
+
+function check_option_ks(note) local(true, i)
+(
+  processing = 1;
+  i = 0;
+  true = 0;
+  while (i < 4)(
+    note == opt_ks[i]?(
+      true = 1;
+      i = 10;
+    );
+    i += 1;
+  );
+  while (i < 8)(
+    note == opt_ks[i]?(
+      true = 2;
+      i = 10;
+    );
+    i += 1;
+  );
+  while (i < 10)(
+      note == opt_ks[i]?(
+        true = 3;
+        i = 10;
+      );
+      i += 1;
+    );
+  processing = 0;
+  true;
+);
+
+
+
+@block
+midirecv(offst,msg1,msg2,msg3)?(
+  ignore = 0;
+  msg1>=0x80 && msg1<0xa0?(
+    msg = floor(msg1 / 16) * 16;
+    opt_ks_curr = check_option_ks(msg2);
+    opt_ks_curr >0 && msg == 0x90 && msg3 > 0?(
+      offst += 10;
+    );
+    opt_ks_curr == 1?(
+      midisend(offst,msg + slider1-1,msg2,msg3);
+      midisend(offst,msg + slider2-1,msg2,msg3);
+      ignore = 1;
+    );
+    opt_ks_curr == 2?(
+       midisend(offst,msg + slider1-1,msg2,msg3);
+       ignore = 1;
+     );
+    opt_ks_curr == 3?(
+       midisend(offst,msg + slider2-1,msg2,msg3);
+       ignore = 1;
+     );
+  );
+  ignore == 0?(
+    midisend(offst,msg1,msg2,msg3);
+  );
+);
+
+
+

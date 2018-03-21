@@ -1,0 +1,57 @@
+desc:SS Gusli hack for Reaticulate
+
+slider1:9<1,16,1>start channel
+slider2:7<1,16,1>KS Channel
+
+@init
+
+
+opt_ks[0] = 48;
+opt_ks[1] = 49;
+
+chek_ks_entries = 0;
+
+function check_option_ks(note) local(true, i)
+(
+  i = 0;
+  true = 0;
+  while (i < 2)(
+    note == opt_ks[i]?(
+      true = 1;
+      i = 8;
+      chek_ks_entries+=1;
+    );
+    i += 1;
+  );
+  true;
+);
+
+function send_msg_at_curr_ch(l_offset,l_msg1,l_msg2,l_msg3) local(l_msg)
+(
+  l_msg = l_msg1 - (l_msg1 % 16);
+  midisend(offst,l_msg + ch,l_msg2,l_msg3);
+); 
+
+@sample
+midirecv(offst,msg1,msg2,msg3)?(
+  ignore = 0;
+  opt_ks_state=0;
+  msg1>=0x90 && msg1<0xa0?(
+    check_option_ks(msg2) == 1?(
+      ignore = 1;
+      send_msg_at_curr_ch(offset,msg1,msg2,msg3);
+    );
+  );
+  msg = msg1 - (msg1 % 16);
+  slider2-1 != msg1 % 16 && msg1 % 16>7 && msg1 % 16<14  ? (
+    ch =  msg1 % 16;
+  );
+  ignore == 0?(
+    midisend(offst,msg + ch,msg2,msg3);
+  );
+);
+
+@serialize
+file_var(0,ch);
+
+

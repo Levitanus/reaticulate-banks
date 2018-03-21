@@ -1,0 +1,23 @@
+desc:Pr.Change to CC (Levitanus)
+
+slider1:0<1,127,1>CC
+
+@init
+#str = "init"
+
+@slider
+CC_num = slider1
+
+@block
+while (midirecv(offset,msg1,msg2,msg3)) (
+  msg1 == 0xC0 ?(
+  midisend (offset,0xB0,CC_num,msg2);
+  #str = "Pr change";
+  var = slider(1);
+  ):(
+  midisend (offset,msg1,msg2,msg3);
+  );
+);
+
+
+ 

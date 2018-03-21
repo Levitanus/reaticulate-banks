@@ -1,0 +1,178 @@
+//----------------------------------------------------------------------------
+//! g="Spitfire" n="Harp 1"
+Bank 20 1 USER Spitfire/Harp 1
+
+//! c=legato-light i=note-eighth g=1 o=note@1:12
+1 ART1 Norm
+//! c=legato-dark i=harp-pdlt g=1 o=note@1:13
+2 ART2 PDLT
+//! c=short-dark i=harmonics g=1 o=note@1:14
+3 ART3 Flageolet
+//! c=textured i=legato-gliss g=1 o=note@1:15
+4 ART4 Slide
+//! c=long i=tremolo g=1 o=note@1:16
+5 ART5 Bisbigliando
+//! c=fx i=fx g=1 o=note@1:17
+6 ART6 fx
+
+//! c=textured i=legato-runs g=1 o=note@2:12
+11 ART11 whole
+//! c=textured i=legato-runs g=1 o=note@2:13
+12 ART12 MinH
+//! c=textured i=legato-runs g=1 o=note@2:14
+13 ART13 MinM
+//! c=textured i=legato-runs g=1 o=note@2:15
+14 ART14 Maj
+//! c=textured i=legato-runs g=1 o=note@2:16
+15 ART15 Pentatonic
+//! c=textured i=legato-runs g=1 o=note@2:17
+16 ART16 Dim
+
+//! c=legato i=rip g=3 o=cc@1:65,60/cc@1:66,60/cc@1:67,60/cc@1:68,60/cc@1:69,60/cc@1:70,60/cc@1:71,60
+17 ART 17 Reset Tune
+//! c=legato-dark i=rip g=3 o=cc@1:65,127
+18 ART 18 D#
+//! c=legato-dark i=tenuto-quarter g=3 o=cc@1:65,60
+19 ART 19 D
+//! c=legato-dark i=rip-downward g=3 o=cc@1:65,1
+20 ART 20 Db
+//! c=legato-light i=rip g=3 o=cc@1:66,127
+21 ART 21 C#
+//! c=legato-light i=tenuto-quarter g=3 o=cc@1:66,60
+22 ART 22 C
+//! c=legato-light i=rip-downward g=3 o=cc@1:66,1
+23 ART 23 Cb
+//! c=legato-dark i=rip g=3 o=cc@1:67,127
+24 ART 24 B#
+//! c=legato-dark i=tenuto-quarter g=3 o=cc@1:67,60
+25 ART 25 B
+//! c=legato-dark i=rip-downward g=3 o=cc@1:67,1
+26 ART 26 Bb
+//! c=legato-light i=rip g=3 o=cc@1:68,127
+27 ART 27 E#
+//! c=legato-light i=tenuto-quarter g=3 o=cc@1:68,60
+28 ART 28 E
+//! c=legato-light i=rip-downward g=3 o=cc@1:68,1
+29 ART 29 Eb
+//! c=legato-dark i=rip g=3 o=cc@1:69,127
+31 OPT 1 F#
+//! c=legato-dark i=tenuto-quarter g=3 o=cc@1:69,60
+32 OPT 2 F
+//! c=legato-dark i=rip-downward g=3 o=cc@1:69,1
+33 OPT 3 Fb
+//! c=legato-light i=rip g=3 o=cc@1:70,127
+34 OPT 4 G#
+//! c=legato-light i=tenuto-quarter g=3 o=cc@1:70,60
+35 OPT 5 G
+//! c=legato-light i=rip-downward g=3 o=cc@1:70,1
+36 OPT 6 Gb
+//! c=legato-dark i=rip g=3 o=cc@1:71,127
+37 OPT 7 A#
+//! c=legato-dark i=tenuto-quarter g=3 o=cc@1:71,60
+38 OPT 8 A
+//! c=legato-dark i=rip-downward g=3 o=cc@1:71,1
+39 OPT 9 Ab
+
+
+//! g="Spitfire" n="Harp 2"
+Bank 20 2 USER Spitfire/Harp 2
+
+//! c=legato-light i=note-eighth g=1 o=note@3:12
+1 ART1 Norm
+//! c=legato-dark i=harp-pdlt g=1 o=note@3:13
+2 ART2 PDLT
+//! c=short-dark i=harmonics g=1 o=note@3:14
+3 ART3 Flageolet
+//! c=textured i=legato-gliss g=1 o=note@3:15
+4 ART4 Slide
+//! c=long i=tremolo g=1 o=note@3:16
+5 ART5 Bisbigliando
+//! c=fx i=fx g=1 o=note@3:17
+6 ART6 fx
+
+//! c=textured i=legato-runs g=1 o=note@4:12
+11 ART11 whole
+//! c=textured i=legato-runs g=1 o=note@4:13
+12 ART12 MinH
+//! c=textured i=legato-runs g=1 o=note@4:14
+13 ART13 MinM
+//! c=textured i=legato-runs g=1 o=note@4:15
+14 ART14 Maj
+//! c=textured i=legato-runs g=1 o=note@4:16
+15 ART15 Pentatonic
+//! c=textured i=legato-runs g=1 o=note@4:17
+16 ART16 Dim
+
+//! c=legato i=rip g=3 o=cc@3:65,60/cc@3:66,60/cc@3:67,60/cc@3:68,60/cc@3:69,60/cc@3:70,60/cc@3:71,60
+17 ART 17 Reset Tune
+//! c=legato-dark i=rip g=3 o=cc@3:65,127
+18 ART 18 D#
+//! c=legato-dark i=tenuto-quarter g=3 o=cc@3:65,60
+19 ART 19 D
+//! c=legato-dark i=rip-downward g=3 o=cc@3:65,1
+20 ART 20 Db
+//! c=legato-light i=rip g=3 o=cc@3:66,127
+21 ART 21 C#
+//! c=legato-light i=tenuto-quarter g=3 o=cc@3:66,60
+22 ART 22 C
+//! c=legato-light i=rip-downward g=3 o=cc@3:66,1
+23 ART 23 Cb
+//! c=legato-dark i=rip g=3 o=cc@3:67,127
+24 ART 24 B#
+//! c=legato-dark i=tenuto-quarter g=3 o=cc@3:67,60
+25 ART 25 B
+//! c=legato-dark i=rip-downward g=3 o=cc@3:67,1
+26 ART 26 Bb
+//! c=legato-light i=rip g=3 o=cc@3:68,127
+27 ART 27 E#
+//! c=legato-light i=tenuto-quarter g=3 o=cc@3:68,60
+28 ART 28 E
+//! c=legato-light i=rip-downward g=3 o=cc@3:68,1
+29 ART 29 Eb
+//! c=legato-dark i=rip g=3 o=cc@3:69,127
+31 OPT 1 F#
+//! c=legato-dark i=tenuto-quarter g=3 o=cc@3:69,60
+32 OPT 2 F
+//! c=legato-dark i=rip-downward g=3 o=cc@3:69,1
+33 OPT 3 Fb
+//! c=legato-light i=rip g=3 o=cc@3:70,127
+34 OPT 4 G#
+//! c=legato-light i=tenuto-quarter g=3 o=cc@3:70,60
+35 OPT 5 G
+//! c=legato-light i=rip-downward g=3 o=cc@3:70,1
+36 OPT 6 Gb
+//! c=legato-dark i=rip g=3 o=cc@3:71,127
+37 OPT 7 A#
+//! c=legato-dark i=tenuto-quarter g=3 o=cc@3:71,60
+38 OPT 8 A
+//! c=legato-dark i=rip-downward g=3 o=cc@3:71,1
+39 OPT 9 Ab
+
+//! g="Spitfire" n="Harps purge"
+Bank 20 3 USER Spitfire/Harps purge
+
+//! c=short-dark i=alt-circle g=3 o=cc@1:22,127/cc@2:22,127
+40 1: Close On
+//! c=short-dark i=rest-quarter g=3 o=cc@1:22,0/cc@2:22,0
+41 1: Close Off
+//! c=short-dark i=alt-circle g=3 o=cc@1:23,127/cc@2:23,127
+42 1: Tree On
+//! c=short-dark i=rest-quarter g=3 o=cc@1:23,0/cc@2:23,0
+43 1: Tree Off
+//! c=short-dark i=alt-circle g=3 o=cc@1:24,127/cc@2:24,127
+44 1: Surr On
+//! c=short-dark i=rest-quarter g=3 o=cc@1:24,0/cc@2:24,0
+45 1: Surr Off
+
+//! c=short-light i=alt-circle g=3 o=cc@3:22,127/cc@4:22,127
+46 2: Close On
+//! c=short-light i=rest-quarter g=3 o=cc@3:22,0/cc@4:22,0
+47 2: Close Off
+//! c=short-light i=alt-circle g=3 o=cc@3:23,127/cc@4:23,127
+48 2: Tree On
+//! c=short-light i=rest-quarter g=3 o=cc@3:23,0/cc@4:23,0
+49 2: Tree Off
+//! c=short-light i=alt-circle g=3 o=cc@3:24,127/cc@4:24,127
+50 2: Surr On
+//! c=short-light i=rest-quarter g=3 o=cc@3:24,0/cc@4:24,0
+51 2: Surr Off

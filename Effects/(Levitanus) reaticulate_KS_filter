@@ -1,0 +1,17 @@
+desc:Reaticulate KS Filter
+
+slider1:1<0,127,1>note
+
+@block
+midirecv(offset,msg1,msg2,msg3)?(
+  ignore = 0;
+  msg1 >= 0x80 && msg1 < 0xA0?(
+    msg2 == 1 ?(
+      ignore = 1;
+    );
+  );
+  ignore == 0?(
+    midisend(offset, msg1, msg2, msg3);
+  )
+);
+

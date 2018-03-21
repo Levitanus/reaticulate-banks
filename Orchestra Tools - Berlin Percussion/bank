@@ -1,0 +1,314 @@
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Percussion" n="Drums" f=!chase
+Bank 15 1 USER OT/BPC/Drums
+
+//! c=fx i=crescendo g=1 o=note@1
+5 ART5 BD
+
+//! c=legato i=staccato g=1 o=note@2:24
+1 ART1 Dresdner C
+//! c=legato i=crescendo g=1 o=note@2:25
+2 ART2 Dresdner D
+//! c=legato i=staccato g=1 o=note@2:26
+3 ART3 Dresdner C w
+//! c=legato i=crescendo g=1 o=note@2:27
+4 ART4 Dresdner D w
+
+//! c=long i=staccato g=1 o=note@3:24
+6 ART6 Field C
+//! c=long i=crescendo g=1 o=note@3:25
+7 ART7 Field D
+//! c=long i=staccato g=1 o=note@3:26
+8 ART8 Field C w
+//! c=long i=crescendo g=1 o=note@3:27
+9 ART9 Field D w
+
+//! c=short i=staccato g=1 o=note@4:24
+11 ART11 Frcrk C
+//! c=short i=crescendo g=1 o=note@4:25
+12 ART12 Frcrk D
+//! c=short i=staccato g=1 o=note@4:26
+13 ART13 Frcrk C w
+//! c=short i=crescendo g=1 o=note@4:27
+14 ART14 Frcrk D w
+
+//! c=legato-dark i=staccato g=1 o=note@5:24
+16 ART16 Picc C
+//! c=legato-dark i=crescendo g=1 o=note@5:25
+17 ART17 Picc D
+//! c=legato-dark i=staccato g=1 o=note@5:26
+18 ART18 Picc C w
+//! c=legato-dark i=crescendo g=1 o=note@5:27
+19 ART19 Picc D w
+
+//! c=long-dark i=staccato g=1 o=note@6:24
+21 ART21 Majst C
+//! c=long-dark i=crescendo g=1 o=note@6:25
+22 ART22 Majst D
+//! c=long-dark i=staccato g=1 o=note@6:26
+23 ART23 Majst C w
+//! c=long-dark i=crescendo g=1 o=note@6:27
+24 ART24 Majst D w
+
+//! c=short-dark i=staccato g=1 o=note@7:24
+26 ART26 Tenor C
+//! c=short-dark i=crescendo g=1 o=note@7:25
+27 ART27 Tenor D
+//! c=short-dark i=staccato g=1 o=note@7:26
+28 ART28 Tenor C w
+//! c=short-dark i=crescendo g=1 o=note@7:27
+29 ART29 Tenor D w
+
+//! c=legato-light i=staccato g=1 o=note@8:24
+15 ART15 Toms BSC
+//! c=legato-light i=staccato-dig g=1 o=note@8:25
+20 ART20 Toms EXT
+//! c=legato-light i=tremolo g=1 o=note@8:26
+25 ART25 Toms RLS
+//! c=legato-light i=crescendo g=1 o=note@8:27
+30 ART30 Toms DYN
+
+
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Percussion" n="Latin" f=!chase
+Bank 15 2 USER OT/BPC/Latin
+
+//! c=legato-light i=staccato g=1 o=note@1:24
+1 ART1 Timbales BSC
+//! c=legato-light i=staccato-dig g=1 o=note@1:25
+2 ART2 Timbales EXT
+//! c=legato-light i=tremolo g=1 o=note@1:26
+3 ART3 Timbales RLS
+//! c=legato-light i=crescendo g=1 o=note@1:27
+4 ART4 Timbales DYN
+
+//! c=long i=staccato g=1 o=note@2
+6 ART6 Bongos1 C
+//! c=long i=crescendo g=1 o=note@3
+7 ART7 Bongos1 D
+//! c=long i=staccato g=1 o=note@4
+8 ART8 Bongos2 C w
+//! c=long i=crescendo g=1 o=note@5
+9 ART9 Bongos2 D w
+
+//! c=short i=staccato g=1 o=note@6
+11 ART11 Congas C
+//! c=short i=crescendo g=1 o=note@7
+12 ART12 Congas D
+
+
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Percussion" n="Misc" f=!chase
+Bank 15 3 USER OT/BPC/Misc
+
+//! c=legato-light i=staccato g=1 o=note@1:24
+1 ART1 TmplBlc BSC
+//! c=legato-light i=staccato-dig g=1 o=note@1:25
+2 ART2 TmplBlc EXT
+//! c=legato-light i=tremolo g=1 o=note@1:26
+3 ART3 TmplBlc RLS
+//! c=legato-light i=crescendo g=1 o=note@1:27
+4 ART4 TmplBlc DYN
+
+//! c=textured i=alt-circle g=1 o=@2
+5 ART5 Body
+//! c=short-light i=alt-circle g=1 o=@3
+6 ART6 Shakers
+//! c=short i=alt-circle g=1 o=@4
+7 ART7 Castaniets
+//! c=short-dark i=alt-circle g=1 o=@5
+8 ART8 Claves
+//! c=long i=alt-circle g=1 o=@6
+9 ART9 Tamb 1
+//! c=long i=alt-circle g=1 o=@7
+10 ART10 Tamb 2
+//! c=long-dark i=alt-circle g=1 o=@8
+11 ART11 Guiro
+
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Percussion" n="Metal-toys" f=!chase
+Bank 15 4 USER OT/BPC/Metal-toys
+
+//! c=long i=alt-circle g=4 o=note@1:24
+31 OPT 1 S&R St
+//! c=long-dark i=alt-wave g=4 o=note@1:25
+32 OPT 2 Dyn St
+//! c=long i=alt-circle g=4 o=note@1:26
+33 OPT 3 S&R Br
+//! c=long-dark i=alt-wave g=4 o=note@1:27
+34 OPT 4 Dyn Br
+//! c=long i=alt-circle g=4 o=note@1:28
+35 OPT 5 S&R KV
+//! c=long-dark i=alt-wave g=4 o=note@1:29
+36 OPT 6 Dyn KV
+//! c=long i=alt-circle g=4 o=note@1:30
+37 OPT 7 S&R Br KV
+//! c=long-dark i=alt-wave g=4 o=note@1:31
+38 OPT 8 Dyn Br KV
+//! c=long-light i=stopped g=4 o=note@1:32
+39 OPT 9 Dyn St TD
+//! c=long-light i=stopped g=4 o=note@1:33
+40 OPT 10 Dyn Br TD
+
+//! c=legato-light i=list g=1 o=note@1:1,1
+1 ART1 Meini
+//! c=legato-light i=list g=1 o=note@1:1,2
+2 ART2 Sabian
+//! c=legato-light i=list g=1 o=note@1:1,3
+3 ART3 Zildjian
+
+//! c=legato-dark i=stopped g=1 o=note@4
+4 ART4 Piatti 15''
+//! c=legato-dark i=stopped g=1 o=note@6
+5 ART5 Piatti 19''
+//! c=legato-light i=list g=1 o=note@1:1,7
+7 ART7 Tamtams
+//! c=short-dark i=spiccato g=1 o=note@8
+8 ART8 Anvils
+//! c=short i=spiccato g=1 o=note@9
+9 ART9 Bell Tree
+//! c=short i=spiccato g=1 o=note@10
+10 ART10 Bell Gliss
+//! c=short-dark i=spiccato g=1 o=note@11
+11 ART11 Triangles
+//! c=short i=spiccato g=1 o=note@12
+12 ART12 Chime Gliss
+//! c=short i=spiccato g=1 o=note@13
+13 ART13 Chimes M
+//! c=fx i=fx g=1 o=note@14
+14 ART14 fx
+//! c=short i=spiccato g=1 o=note@15
+15 ART15 Fngr Cymb
+//! c=short-dark i=spiccato g=1 o=note@16
+16 ART16 Fog Hrn
+
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Percussion/Pitched" n="Celesta" f=!chase
+Bank 15 5 USER OT/BPC/Pitched/Celesta
+
+//! c=long i=note-whole g=1 o=note:24
+1 ART 1 Sus
+//! c=long-dark i=staccato g=1 o=note:25
+2 ART 2 Stacc
+
+//! g="Orchestra tools/Berlin Percussion/Pitched" n="vibraphone" f=!chase
+Bank 15 11 USER OT/BPC/Pitched/vibraphone
+
+//! c=long i=note-whole g=1 o=note:24
+1 ART 1 Sus
+//! c=short-dark i=staccato g=1 o=note:25
+2 ART 2 Stacc
+//! c=long i=note-whole g=1 o=note:26
+3 ART 3 Sus Soft
+//! c=short-dark i=staccato g=1 o=note:27
+4 ART 4 Stacc Soft
+//! c=textured i=vibrato g=1 o=note:28
+5 ART 5 Vibr
+//! c=textured i=vibrato g=1 o=note:29
+6 ART 6 Vibr Fast
+//! c=textured i=tremolo g=1 o=note:30
+7 ART 7 Tremolo
+//! c=fx i=rip g=1 o=note:31
+8 ART 8 Gliss Up
+//! c=fx i=rip-downward g=1 o=note:32
+9 ART 9 Gliss Dwn
+
+//! g="Orchestra tools/Berlin Percussion/Pitched" n="marimba" f=!chase
+Bank 15 10 USER OT/BPC/Pitched/marimba
+
+//! c=long i=staccato g=1 o=note:24
+1 ART 1 Norm
+//! c=short-dark i=tenuto-quarter g=1 o=note:25
+2 ART 2 Soft
+//! c=long i=spiccato g=1 o=note:26
+3 ART 3 Hard
+//! c=textured i=tremolo g=1 o=note:27
+4 ART 4 Tremolo N
+//! c=textured i=tremolo g=1 o=note:28
+5 ART 5 Tremolo H
+
+//! g="Orchestra tools/Berlin Percussion/Pitched" n="Xylophone" f=!chase
+Bank 15 8 USER OT/BPC/Pitched/Xylophone
+
+//! c=long i=staccato g=1 o=note:24
+1 ART 1 Hits
+//! c=textured i=tremolo g=1 o=note:25
+2 ART 2 Tremolo
+//! c=fx i=rip g=1 o=note:26
+3 ART 3 Gliss
+
+//! g="Orchestra tools/Berlin Percussion/Pitched" n="Glocken" f=!chase
+Bank 15 9 USER OT/BPC/Pitched/Glocken
+
+//! c=long i=note-whole g=1 o=note:24
+1 ART 1 Sus Norm
+//! c=short-dark i=staccato g=1 o=note:25
+2 ART 2 Stacc Norm
+//! c=textured i=vibrato g=1 o=note:26
+3 ART 3 Vibr Norm
+//! c=textured i=tremolo g=1 o=note:27
+4 ART 4 Trem N
+//! c=textured i=tremolo g=1 o=note:28
+5 ART 5 Trem Dim
+//! c=fx i=rip g=1 o=note:29
+6 ART 6 Gliss Up
+//! c=long i=note-whole g=1 o=note:30
+7 ART 7 Sus Soft
+//! c=textured i=vibrato g=1 o=note:31
+8 ART 8 Vibr Soft
+//! c=fx i=rip g=1 o=note:32
+9 ART 9 Gliss S
+//! c=long i=note-whole g=1 o=note:33
+10 ART 10 Sus Hard
+
+//! g="Orchestra tools/Berlin Percussion/Pitched" n="Tubular Bells" f=!chase
+Bank 15 6 USER OT/BPC/Pitched/Tub Bells
+
+//! c=long i=note-whole g=1 o=note:24
+1 ART 1 Sus
+//! c=short-dark i=staccato g=1 o=note:26
+2 ART 2 Stacc
+//! c=long i=note-whole g=1 o=note:25
+3 ART 3 Sus Soft
+//! c=short-dark i=staccato g=1 o=note:27
+4 ART 4 Stacc Soft
+
+//! g="Orchestra tools/Berlin Percussion" n="Timpani"
+Bank 15 7 USER OT/BPC/Timpani
+
+//! c=short i=staccato g=1 o=@1
+1 ART 1 Hits
+//! c=long i=note-whole g=1 o=@10
+2 ART 2 Rolls
+//! c=long-dark i=crescendo g=1 o=@7
+3 ART 3 Cresc
+//! c=long-dark i=decrescendo g=1 o=@8
+4 ART 4 Dim
+//! c=long-dark i=sfz g=1 o=@9
+5 ART 5 Fp
+//! c=textured i=tremolo-measured g=1 o=@2
+6 ART 6 Rep 4th
+//! c=textured i=tremolo-measured g=1 o=@3
+7 ART 7 Rep 8th
+//! c=textured i=tremolo-measured g=1 o=@4
+8 ART 8 Rep 16th
+//! c=textured i=tremolo-measured g=1 o=@5
+9 ART 9 Rep 32th
+//! c=fx i=fx g=1 o=@6
+10 ART 10 Wheather
+
+//! c=legato i=list g=2 o=note@7:24
+31 OPT 1 Cresc 1/4
+//! c=legato i=list g=2 o=note@7:26
+32 OPT 2 Cresc 1/2
+//! c=legato i=list g=2 o=note@7:28
+33 OPT 3 Cresc 1
+//! c=legato i=list g=2 o=note@7:29
+34 OPT 4 Cresc 2
+//! c=legato i=list g=2 o=note@7:31
+35 OPT 5 Cresc 3
+
+//! c=legato-dark i=list g=3 o=note@8:24
+36 OPT 6 Dim 1
+//! c=legato-dark i=list g=3 o=note@8:26
+37 OPT 7 Dim 2

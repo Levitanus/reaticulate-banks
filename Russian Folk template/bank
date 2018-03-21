@@ -1,0 +1,351 @@
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk/Balalaika Prima" n=" Solo" off=100
+Bank 12 6 USER IE/Folk - Bal I Solo
+//! c=default i=stopped g=4 o=note:105
+31 OPT 1 Solo
+
+//! c=legato i=staccato g=1 o=note:59
+1 ART1 Pluck
+//! c=legato i=tremolo g=1 o=note:57
+2 ART2 Tremolo
+
+
+//! c=textured i=harmonics g=2 o=note-hold:56 f=toggle
+36 OPT 6 Flageolet
+//! c=long i=legato g=2 o=note-hold:58 f=toggle
+37 OPT 7 Legato
+//! c=long-dark i=legato-gliss g=2 o=note-hold:60 f=toggle
+38 OPT 8 Glissando
+//! c=short-light i=staccato-breath g=2 o=note-hold:61 f=toggle
+39 OPT 9 Staccato
+
+
+//! g=4 o=note:51/note:52/note:53/note:56/note:58/note:60/note:61 f=hidden
+100 Release all holds
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk/Balalaika Prima" n="Strum" off=101
+Bank 12 7 USER IE/Folk - Bal I Strum
+//! c=default i=stopped g=4 o=note:103
+32 OPT 2 Strum
+
+//! c=legato i=staccato g=2 o=note:83
+3 ART3 Pluck
+//! c=legato i=tremolo g=2 o=note:81
+4 ART4 Tremolo
+
+//! c=long-dark i=list g=3 o=note:78
+33 OPT 3 ChordPos 1
+//! c=long-dark i=list g=3 o=note:80
+34 OPT 4 ChordPos 2
+//! c=long-dark i=list g=3 o=note:82
+35 OPT 5 ChordPos 3
+//! c=long-dark i=list g=3 o=note:79 f=toggle
+40 OPT 10 ChordPos auto
+
+//! g=4 o=note:78/note:80/note:82/note:79 f=hidden
+101 Release all holds
+
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk/Balalaika Secunda" n=" Solo" off=100
+Bank 12 8 USER IE/Folk - Bal II Solo
+//! c=default i=stopped g=4 o=note:98
+31 OPT 1 Solo
+
+//! c=legato i=staccato g=1 o=note:52
+1 ART1 Pluck
+//! c=legato i=tremolo g=1 o=note:50
+2 ART2 Tremolo
+
+
+//! c=textured i=harmonics g=2 o=note-hold:49 f=toggle
+36 OPT 6 Flageolet
+//! c=long i=legato g=2 o=note-hold:51 f=toggle
+37 OPT 7 Legato
+//! c=long-dark i=legato-gliss g=2 o=note-hold:53 f=toggle
+38 OPT 8 Glissando
+//! c=short-light i=staccato-breath g=2 o=note-hold:54 f=toggle
+39 OPT 9 Staccato
+
+
+//! g=4 o=note:46/note:49/note:51/note:53/note:54 f=hidden
+100 Release all holds
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk/Balalaika Secunda" n="Strum" off=101
+Bank 12 9 USER IE/Folk - Bal II Strum
+//! c=default i=stopped g=4 o=note:96
+32 OPT 2 Strum
+
+//! c=legato i=staccato g=2 o=note:76
+3 ART3 Pluck
+//! c=legato i=tremolo g=2 o=note:74
+4 ART4 Tremolo
+
+//! c=long-dark i=list g=3 o=note:71
+33 OPT 3 ChordPos 1
+//! c=long-dark i=list g=3 o=note:73
+34 OPT 4 ChordPos 2
+//! c=long-dark i=list g=3 o=note:75
+35 OPT 5 ChordPos 3
+//! c=long-dark i=list g=3 o=note:72 f=toggle
+40 OPT 10 ChordPos auto
+
+//! g=4 o=note:74/note:77/note:71/note:73/note:75/note:72 f=hidden
+101 Release all holds
+
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk" n="Contrabass" off=100
+Bank 12 10 USER IE/Folk - Bal CB
+
+//! c=legato i=staccato g=1 o=note:83
+1 ART1 Pluck
+//! c=legato i=tremolo g=1 o=note:81
+2 ART2 Tremolo
+
+
+//! c=textured i=harmonics g=2 o=note-hold:80 f=toggle
+36 OPT 6 Flageolet
+//! c=long i=legato g=2 o=note-hold:82 f=toggle
+37 OPT 7 Legato
+
+
+//! g=4 o=note:80/note:82 f=hidden
+100 Release all holds
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk" n="Jaleika G"
+Bank 12 11 USER IE/Folk - Jaleika G
+
+//! c=legato i=legato g=1 o=note:57
+1 ART1 Legato
+//! c=textured i=legato-runs g=1 o=note:55
+2 ART2 ornament1
+//! c=textured i=legato-runs g=1 o=note:53
+3 ART3 ornament2
+//! c=textured i=legato-runs g=1 o=note:52
+4 ART4 ornament3
+//! c=textured i=legato-runs g=1 o=note:50
+5 ART5 Phrases
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk" n="Jaleika C"
+Bank 12 12 USER IE/Folk - Jaleika C
+
+//! c=legato i=legato g=1 o=note:57
+1 ART1 Legato
+//! c=textured i=legato-runs g=1 o=note:55
+2 ART2 ornament1
+//! c=textured i=legato-runs g=1 o=note:53
+3 ART3 ornament2
+//! c=textured i=legato-runs g=1 o=note:52
+4 ART4 ornament3
+//! c=short i=staccato g=1 o=note:50
+5 ART5 Staccato
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk" n="Bayan R"
+Bank 12 13 USER IE/Folk - Bayan R
+
+//! c=legato i=legato g=1 o=note:29
+1 ART1 Sus
+//! c=legato i=staccato g=1 o=note-hold:31
+2 ART2 Stacc
+//! c=legato i=crescendo g=1 o=note-hold:32
+3 ART3 Cresc
+//! c=legato i=spiccato-brushed g=1 o=note-hold:30
+4 ART4 Detache
+
+//! c=short i=list g=2 o=note:36,127
+31 OPT 1 Picc On
+//! c=short i=list g=2 o=note:36,1
+36 OPT 6 Picc Off
+//! c=short i=list g=2 o=note:37,127
+32 OPT 2 Concert On
+//! c=short i=list g=2 o=note:37,1
+37 OPT 7 Concert Off
+//! c=short i=list g=2 o=note:38,127
+33 OPT 3 Clarinet On
+//! c=short i=list g=2 o=note:38,1
+38 OPT 8 Clarinet Off
+//! c=short i=list g=2 o=note:39,127
+34 OPT 4 Bassoon On
+//! c=short i=list g=2 o=note:39,1
+39 OPT 9 Bassoon Off
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk" n="Bayan L"
+Bank 12 14 USER IE/Folk - Bayan L
+
+//! c=legato i=note-whole g=1 o=note:29
+1 ART1 Sus
+//! c=legato i=staccato g=1 o=note-hold:31
+2 ART2 Stacc
+//! c=legato i=crescendo g=1 o=note-hold:32
+3 ART3 Cresc
+//! c=legato i=spiccato-brushed g=1 o=note-hold:30
+4 ART4 Detache
+
+//! c=short i=list g=2 o=note:28
+31 OPT 1 Octave On
+//! c=short i=list g=2 o=note:27
+36 OPT 6 Octave Off
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk" n="Duduk"
+Bank 12 15 USER IE/Folk - Duduk
+
+//! c=legato i=legato g=1 o=note:48
+1 ART1 Basic
+//! c=legato i=legato-bowed g=1 o=note:50
+2 ART2 Expr
+//! c=legato i=crescendo g=1 o=note:49
+3 ART3 Cresc Lng
+//! c=legato i=crescendo g=1 o=note:51
+4 ART4 Cresc Sh
+//! c=legato i=crescendo g=1 o=note:47
+5 ART5 Cresc Expr
+//! c=legato i=vibrato g=1 o=note:46
+6 ART6 Vibr
+//! c=legato i=trill-maj2 g=1 o=note:45
+7 ART7 Mrdnt 1
+//! c=legato i=trill-maj2 g=1 o=note:44
+8 ART8 Mrdnt 2
+//! c=legato i=trill-maj2 g=1 o=note:43
+9 ART9 Frshlg
+
+//! c=legato i=rip g=1 o=note:42
+10 ART10 Slide-Up
+
+//! c=legato i=phrase g=1 o=note:41
+11 ART11 Ornament 1
+//! c=legato i=phrase g=1 o=note:40
+12 ART12 Ornament 2
+//! c=legato i=phrase g=1 o=note:39
+13 ART13 Ornament 3
+
+//! c=legato i=staccato g=1 o=note:38
+14 ART14 Stacc
+//! c=legato i=staccato-overblown g=1 o=note:37
+15 ART15 Stacc Bird
+
+//! c=fx i=staccato g=2 o=note:76,127
+31 OPT 1 Rel Norm
+//! c=fx i=staccato-overblown g=2 o=note:76,2
+32 OPT 2 Rel Bird
+
+//----------------------------------------------------------------------------
+//! g="Ilya Efimov/Folk" n="Domra I" off=100
+Bank 12 5 USER IE/Folk - Domra I
+//! c=legato i=staccato g=1 o=note:59
+1 ART1 Pluck
+//! c=legato i=tremolo g=1 o=note:57
+2 ART2 Tremolo
+
+//! c=default i=stopped g=2 o=note-hold:52 f=toggle
+31 OPT 1 Mute
+//! c=default i=sul-g g=2 o=note-hold:51 f=toggle
+32 OPT 2 SulE
+//! c=short i=pizz g=2 o=note-hold:53 f=toggle
+33 OPT 3 Pizz
+//! c=textured i=harmonics g=2 o=note-hold:56 f=toggle
+34 OPT 4 Flageolet
+//! c=long i=legato g=2 o=note-hold:58 f=toggle
+35 OPT 5 Legato
+//! c=long-dark i=legato-gliss g=2 o=note-hold:60 f=toggle
+36 OPT 6 Glissando
+//! c=short-light i=staccato-breath g=2 o=note-hold:61 f=toggle
+37 OPT 7 Staccato
+
+
+//! g=4 o=note:51/note:52/note:53/note:56/note:58/note:60/note:61 f=hidden
+100 Release all holds
+
+
+//----------------------------------------------------------------------------
+//! g="Siberian Samples/" n="Domra"
+Bank 12 4 USER SS - Domra
+//! c=legato i=staccato g=1 o=note:47
+1 ART1 Pluck
+//! c=legato i=tremolo g=1 o=note:48
+2 ART2 Tremolo
+//! c=legato i=tremolo-measured g=1 o=note:50
+3 ART3 Repetitions
+
+//! c=short i=alt-wave-double g=2 o=note:43
+31 OPT 1 Rel On 
+//! c=short i=alt-wave-double-stopped g=2 o=note:44
+36 OPT 6 Rel Off
+//! c=short-light i=sul-g g=3 o=note:41
+32 OPT 2 SulE On 
+//! c=short-light i=sul-g g=3 o=note:42
+37 OPT 7 SulE Off
+//! c=short-dark i=legato g=4 o=note:45
+33 OPT 3 Legato On 
+//! c=short-dark i=legato g=4 o=note:46
+38 OPT 8 Legato Off
+
+//----------------------------------------------------------------------------
+//! g="Siberian Samples/" n="Gusli 1.5 st ch 9"
+Bank 12 3 USER SS - Gusli 1_5 st ch 9
+//! c=short i=staccato g=1 o=note@9:0
+1 ART1 Finger
+//! c=short-light i=staccato-dig g=1 o=note@10:0
+2 ART2 Pluck
+//! c=long i=col-legno g=1 o=note@11:0
+3 ART3 Stick
+//! c=long-dark i=staccato-breath g=1 o=note@12:0
+4 ART4 Brill
+//! c=short-dark i=harmonics g=1 o=note@13:0
+5 ART5 Flageolet
+//! c=textured i=tremolo g=1 o=note@14:0
+6 ART6 Rolls
+
+//! c=legato i=fanfare g=2 o=note@8:48,100
+31 OPT 1 Open 
+//! c=legato i=stopped g=2 o=note@8:49,100
+32 OPT 2 Mute
+
+
+//----------------------------------------------------------------------------
+//! g="Siberian Samples/Domras 0.5" n="Options"
+Bank 12 1 USER SS - Domras 0.5 Options
+//! c=legato i=legato g=2 o=note:54,100
+31 OPT 1 Legato 
+//! c=legato i=riccochet g=2 o=note:54,20
+32 OPT 2 Non-Legato
+//! c=textured i=bow-up g=3 o=note:56,100
+33 OPT 3 Rel on
+//! c=textured i=alt-x g=3 o=note:56,20
+34 OPT 4 Rel off
+//! c=short-dark i=staccato-dig g=4 o=note:58,100
+35 OPT 5 Stacc Whole
+//! c=short-dark i=spiccato g=4 o=note:58,20
+36 OPT 6 Stacc Rel
+
+//! g="Siberian Samples/Domras 0.5" n="Main"
+Bank 12 2 USER SS - Domras 0.5 Main
+//! c=legato i=tremolo g=1 o=@2
+1 ART1 Tremolo
+//! c=legato i=bow-down g=1 o=@3
+2 ART2 Pluck
+//! c=legato i=staccato g=1 o=@4
+3 ART3 Stacc
+//! c=legato i=tremolo-measured g=1 o=@5
+4 ART4 Rep16
+//! c=long i=sul-g g=2 o=note-hold:53,100
+37 OPT 7 SulE ON
+//! c=long i=sul-g g=2 o=note:53,20
+38 OPT 8 SulE OFF
+//! c=fx i=tremolo-ghost g=3 o=note:48,100
+39 OPT 9 Rep 32th
+//! c=fx i=tremolo-ghost g=3 o=note:49,20
+40 OPT 10 Rep 16th T
+//! c=fx i=tremolo-ghost g=3 o=note:50,20
+41 OPT 11 Rep 16th
+//! c=fx i=tremolo-ghost g=3 o=note:51,20
+42 OPT 12 Rep 8th T
+//! c=fx i=tremolo-ghost g=3 o=note:52,20
+43 OPT 13 Rep 8th

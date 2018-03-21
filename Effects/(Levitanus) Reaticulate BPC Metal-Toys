@@ -1,0 +1,41 @@
+desc:BPC crashes switcher (crashes multi)
+
+slider1:1<0,127,1>KS
+slider2:1<1,16,1>INPUT ch
+
+@init
+
+function parse_msg(l_msg1) local (return)(
+  return = l_msg1 - (l_msg1 % 16);
+  return;
+);
+
+function parse_ch(l_msg1) local(return)(
+  return = l_msg1 % 16;
+  return;
+);
+
+function set_crash_ch(value)(
+  crash_ch =value-1;
+);
+
+@block
+midirecv(offset, msg1, msg2, msg3)?(
+  ignore = 0;
+  msg = parse_msg(msg1);
+  ch = parse_ch(msg1);
+  msg == 0x90?(
+    ch == slider2-1?(
+      msg2 == slider1? (
+        set_crash_ch(msg3);
+        ignore = 1;
+      );
+      ch = crash_ch; 
+    );
+  );
+  ignore == 0? midisend (offset, msg + ch, msg2, msg3);
+);
+
+@serialize
+file_var(0,crash_ch)
+

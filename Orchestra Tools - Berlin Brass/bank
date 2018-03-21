@@ -1,0 +1,254 @@
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Brass/Horns" n="Core"
+Bank 13 1 USER OT/BBS/Horns - Core
+
+//! c=default i=note-whole g=4 o=cc@channel:84,1
+31 OPT 1 Clean
+//! c=default i=stopped g=4 o=cc@channel:84,2
+32 OPT 2 Stopped
+//! c=legato-dark i=legato-slurred g=3 o=cc@:52,1
+36 OPT 6 Slur
+//! c=legato-dark i=legato-bowed g=3 o=cc@:52,100
+37 OPT 7 Retongue
+
+//! c=legato i=legato g=1 o=@1
+1 ART1 Legato
+//! c=short i=spiccato g=1 o=@2
+2 ART2 Staccatiss
+//! c=short i=staccato g=1 o=@3
+3 ART3 Staccato
+//! c=short i=tenuto-quarter g=1 o=@4
+4 ART4 Marc Short
+//! c=short i=marcato g=1 o=@5
+5 ART5 Marc Long
+
+
+//! g="Orchestra tools/Berlin Brass/Horns" n="solo"
+Bank 13 3 USER OT/BBS/Horns - solo
+
+//! c=long i=tremolo-measured g=1 o=note@6:96
+6 ART6 Rep 16th
+//! c=long i=tremolo-measured g=1 o=note@6:97
+7 ART7 Rep T
+
+//! c=short-dark i=crescendo g=1 o=note@7:96
+8 ART8 Cresc L
+//! c=short-dark i=crescendo g=1 o=note@7:97
+9 ART9 Cresc S
+//! c=short-dark i=alt-wave g=1 o=note@7:98
+10 ART10 Swell L
+//! c=short-dark i=alt-wave g=1 o=note@7:99
+11 ART11 Swell S
+//! c=short-dark i=sfz g=1 o=note@7:100
+12 ART12 Fp
+
+//! c=textured i=trill g=1 o=@8
+13 ART13 Trills OT
+//! c=long-light i=tremolo  g=1 o=@9
+14 ART14 Flutter
+//! c=long-light i=alt-wave  g=1 o=@10
+15 ART15 Bendings
+
+//! c=legato i=legato-fast  g=1 o=@11
+16 ART16 Pl Runs
+
+
+//! g="Orchestra tools/Berlin Brass/Horns" n="a4"
+Bank 13 2 USER OT/BBS/Horns - a4
+
+//! c=long i=fanfare g=1 o=@6
+6 ART6 BellsUp/sus
+//! c=long-dark i=accented-quarter g=1 o=@7
+7 ART7 BellsUp stacc
+//! c=long-dark i=accented-half g=1 o=@8
+8 ART8 BellsUp marc
+//! c=long-light i=tremolo g=1 o=@9
+9 ART9 Flutter
+//! c=short i=alt-wave-double g=1 o=note@10:24
+10 ART10 Flicker
+//! c=short i=alt-wave-double g=1 o=note@10:25
+11 ART11 Flicker+4
+//! c=short i=alt-wave-double g=1 o=note@10:26
+12 ART12 Flicker+5
+
+//! c=short-dark i=fall g=1 o=note@11:96
+13 ART13 AtonFall L
+//! c=short-dark i=fall g=1 o=note@11:97
+14 ART14 AtonFall S
+//! c=short-dark i=rip g=1 o=note@11:98
+15 ART15 AtonRise
+//! c=short-light i=rip g=1 o=note@11:99
+16 ART16 Rip S
+//! c=short-light i=rip g=1 o=note@11:100
+17 ART17 Rip L
+//! c=short-light i=rip g=1 o=note@11:101
+18 ART18 Rip 3rd
+//! c=short-light i=rip g=1 o=note@11:102
+19 ART19 Rip dim5
+//! c=short-dark i=legato-gliss g=1 o=note@11:103
+20 ART20 GlissOct L
+//! c=short-dark i=legato-gliss g=1 o=note@11:104
+21 ART21 GlissOct S
+//! c=short-dark i=alt-wave-double-tr g=1 o=note@11:105
+22 ART22 Spew
+
+//! c=long-dark i=alt-wave g=1 o=note@12:96
+23 ART23 Dopppler L
+//! c=long-dark i=alt-wave g=1 o=note@12:97
+24 ART24 Dopppler S
+
+//! c=legato-dark i=list g=2 o=cc@13:85,0
+34 OPT 4 Cluster 1
+//! c=legato-dark i=list g=2 o=cc@13:85,5
+35 OPT 5 Cluster 2
+//! c=fx i=alt-gypsy g=1 o=note@13:24
+26 ART26 Cluster sus
+//! c=fx i=alt-gypsy-harmonics g=1 o=note@13:25
+27 ART27 Cluster trill
+//! c=fx i=alt-tremolo-gypsy-harmonics g=1 o=note@13:26
+28 ART28 Cluster fltr
+//! c=fx i=alt-gypsy g=1 o=note@13:27
+29 ART29 Cluster bend
+//! c=fx i=alt-x g=1 o=note@13:28
+30 ART30 Cluster stopped
+
+
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Brass" n="Trumpets"
+Bank 13 4 USER OT/BBS/Trumpets
+
+//! c=default i=note-whole g=4 o=cc@channel:84,1
+31 OPT 1 Clean
+//! c=default i=stopped g=4 o=cc@channel:84,2
+32 OPT 2 Straight
+//! c=default i=stopped g=4 o=cc@channel:84,3
+34 OPT 4 Harmon half
+//! c=default i=stopped g=4 o=cc@channel:84,4
+35 OPT 5 Harmon in
+//! c=legato-dark i=legato-slurred g=3 o=cc@:52,1
+36 OPT 7 Slur
+//! c=legato-dark i=legato-bowed g=3 o=cc@:52,100
+37 OPT 6 Retongue
+
+//! c=legato i=legato g=1 o=@1
+1 ART1 Legato
+//! c=short i=spiccato g=1 o=@2
+2 ART2 Staccatiss
+//! c=short i=staccato g=1 o=@3
+3 ART3 Staccato
+//! c=short i=tenuto-quarter g=1 o=@4
+4 ART4 Marc Short
+//! c=short i=marcato g=1 o=@5
+5 ART5 Marc Long
+
+//! c=long i=tremolo-measured g=1 o=note@6:24
+6 ART6 Rep 16th
+//! c=long i=tremolo-measured g=1 o=note@6:25
+7 ART7 Rep T
+
+//! c=short-dark i=crescendo g=1 o=note@7:24
+9 ART8 Cresc L
+//! c=short-dark i=crescendo g=1 o=note@7:25
+10 ART10 Cresc S
+//! c=short-dark i=alt-wave g=1 o=note@7:26
+11 ART11 Swell L
+//! c=short-dark i=alt-wave g=1 o=note@7:27
+12 ART12 Swell S
+//! c=short-dark i=sfz g=1 o=note@7:28
+13 ART13 Fp
+
+//! c=textured i=trill g=1 o=@8
+15 ART15 Trills OT
+//! c=legato i=legato-fast  g=1 o=@9
+16 ART16 Pl Runs
+//! c=legato i=legato  g=1 o=@10
+17 ART17 Zampano leg
+
+
+
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Brass" n="Trombones"
+Bank 13 5 USER OT/BBS/Trombones
+
+//! c=default i=note-whole g=4 o=cc@channel:84,1
+31 OPT 1 Clean
+//! c=default i=stopped g=4 o=cc@channel:84,2
+32 OPT 2 Straight
+//! c=default i=stopped g=4 o=cc@channel:84,3
+33 OPT 3 Harmon half
+//! c=default i=stopped g=4 o=cc@channel:84,4
+34 OPT 4 Harmon in
+
+//! c=legato i=legato g=1 o=@1
+1 ART1 Legato
+//! c=short i=spiccato g=1 o=@2
+2 ART2 Staccatiss
+//! c=short i=staccato g=1 o=@3
+3 ART3 Staccato
+//! c=short i=tenuto-quarter g=1 o=@4
+4 ART4 Marc Short
+//! c=short i=marcato g=1 o=@5
+5 ART5 Marc Long
+
+//! c=long i=tremolo-measured g=1 o=note@6:96
+6 ART6 Rep 16th
+//! c=long i=tremolo-measured g=1 o=note@6:97
+7 ART7 Rep T
+
+//! c=short-dark i=crescendo g=1 o=note@7:96
+9 ART8 Cresc L
+//! c=short-dark i=crescendo g=1 o=note@7:97
+10 ART10 Cresc S
+//! c=short-dark i=alt-wave g=1 o=note@7:98
+11 ART11 Swell L
+//! c=short-dark i=alt-wave g=1 o=note@7:99
+12 ART12 Swell S
+//! c=short-dark i=sfz g=1 o=note@7:100
+13 ART13 Fp
+
+
+//! c=legato i=legato-gliss  g=1 o=@9
+16 ART16 Leg Gliss
+
+
+//----------------------------------------------------------------------------
+//! g="Orchestra tools/Berlin Brass" n="Tuba"
+Bank 13 6 USER OT/BBS/Tuba
+
+
+//! c=legato-dark i=legato-slurred g=3 o=cc@:52,1
+36 OPT 7 Slur
+//! c=legato-dark i=legato-bowed g=3 o=cc@:52,100
+37 OPT 6 Retongue
+
+//! c=legato i=legato g=1 o=@1
+1 ART1 Legato
+//! c=short i=spiccato g=1 o=@2
+2 ART2 Staccatiss
+//! c=short i=staccato g=1 o=@3
+3 ART3 Staccato
+//! c=short i=tenuto-quarter g=1 o=@4
+4 ART4 Marc Short
+//! c=short i=marcato g=1 o=@5
+5 ART5 Marc Long
+
+//! c=long i=tremolo-measured g=1 o=note@6:96
+6 ART6 Rep 16th
+//! c=long i=tremolo-measured g=1 o=note@6:97
+7 ART7 Rep T
+
+//! c=short-dark i=crescendo g=1 o=note@7:96
+9 ART8 Cresc L
+//! c=short-dark i=crescendo g=1 o=note@7:97
+10 ART10 Cresc S
+//! c=short-dark i=alt-wave g=1 o=note@7:98
+11 ART11 Swell L
+//! c=short-dark i=alt-wave g=1 o=note@7:99
+12 ART12 Swell S
+//! c=short-dark i=sfz g=1 o=note@7:100
+13 ART13 Fp
+
+//! c=textured i=trill g=1 o=@8
+15 ART15 Trills OT
+//! c=legato i=legato-fast  g=1 o=@9
+16 ART16 Pl Runs
